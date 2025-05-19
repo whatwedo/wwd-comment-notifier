@@ -1,0 +1,32 @@
+{
+    "name": "Kommentar Hinweis",
+    "mail": {
+        "subject": "New comment on \"{post_name}\" - {comment_time}",
+        "content": [
+            "Hi {name}",
+            "",
+            "{comment_author} has just written a new comment on \"{post_name}\" by {post_author} on {comment_time}.",
+            "",
+            "---",
+            "{comment_excerpt}.",
+            "---",
+            "",
+            "To read more, <a href=\"{post_link}\">click here</a>",
+            "",
+            "<a href=\"{unsubscribe_link}\">Unsubscribe</a> from this post"
+        ],
+        "from_address": "hello@example.ch",
+        "excerpt_length": 50
+    },
+    "checkbox": {
+        "label": "Notify me when new comments are added.",
+        "default_state": false
+    },
+    "unsubscribe": {
+        "title": "You're subscribing",
+        "text": "Your subscription has been removed. You'll be redirect to the blog post within few seconds.",
+        "url": false,
+        "redirect_url": false,
+        "redirect_time": 3
+    }
+}
